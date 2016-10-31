@@ -21,14 +21,10 @@ header, main, footer {
 	margin: auto;
 }
 
-// header {}
-
 main {
 	border: 1px solid gray;
 	display: block;
 }
-
-// footer {}
 
 a {
 	color: #00f;
@@ -48,4 +44,8 @@ h1 {
 	font-family: appHeader, cursive;
 	letter-spacing: 3px;
 	font-size: 2.5em;
+}
+
+#outputStack {
+	border: 1px solid gray;
 }
