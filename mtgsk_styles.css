@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+@font-face {
+    font-family: appFontHeader;
+    src: url(FredokaOne-Regular.ttf);
+}
+
+body {
+	background: #fff;
+	color: #000;
+	width: 75%;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	border: 1px solid gray;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+a {
+	color: #00f;
+	background: #ff0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Fredoka One', appFrontHeader, cursive;
+}
