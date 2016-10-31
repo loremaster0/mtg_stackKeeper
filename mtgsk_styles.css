@@ -6,23 +6,29 @@
 body {
 	background: #fff;
 	color: #000;
-	width: 75%;
+	width: 855px;
+	margin: auto;
+	font-size: 1em;
+}
+
+header, main, footer {
+	text-align: center;
+	min-with: 855px;
+}
+
+.containor {
+	max-width: 855px;
 	margin: auto;
 }
 
-header {
-	text-align: center;
-}
+// header {}
 
 main {
 	border: 1px solid gray;
-	text-align: center;
 	display: block;
 }
 
-footer {
-	text-align: center;
-}
+// footer {}
 
 a {
 	color: #00f;
@@ -40,4 +46,6 @@ a:hover {
 
 h1 {
 	font-family: appHeader, cursive;
+	letter-spacing: 3px;
+	font-size: 2.5em;
 }
