@@ -10,20 +10,34 @@
 	<body>
 		<header>
 			<div class="containor">
-				<h1>MTG - STACK KEEPER</h1>
+				&nbsp;<h1>MTG - STACK KEEPER</h1>&nbsp;
 				<nav>
 					<a href="#">WotC Gatherer</a> |
 					<a href="#">WotC Rules</a> |
 					<a href="#">WotC Comp. Rules</a>
-				</nav>
+				</nav>&nbsp;
 			</div>
 		</header>
 		<main>
-			<div class="containor"></div>
+			<div class="containor">
+				<div id="inputForm">
+					&nbsp;<br>
+					Card/Ability Name: <input type="text" id="itemName"><br>
+					Owner/Controller: <input type="text" id="itemMaster"><br>
+					Notes:<textarea id="itemNotes"></textarea><br>
+					<button id="stackAdd">Add to the Stack</button><button id="stackClear">Fully clear the Stack</button><br>
+					&nbsp;<br>
+				</div>
+				<div id="outputStack">
+					
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="containor">
-				<a href="#">About Web App</a>
+				&nbsp;<nav>
+					<a href="#">About Web App</a>
+				</nav>
 			</div>
 		</footer>
 	</body>
