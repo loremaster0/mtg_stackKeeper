@@ -46,6 +46,17 @@ h1 {
 	font-size: 2.5em;
 }
 
+h2 {
+	font-family: appHeader, cursive;
+	font-size: 1.5em;
+}
+
 #outputStack {
 	border: 1px solid gray;
 }
+
+.inputField:focus {
+	background: #ff0;
+}
+
+// need display css
