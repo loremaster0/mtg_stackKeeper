@@ -21,21 +21,24 @@
 		<main>
 			<div class="containor">
 				<div id="inputForm">
-					&nbsp;<h2>Spell/Ability Name:</h2>&nbsp;<br><input type="text" id="itemName" class="inputField"><br>
-					&nbsp;<h2>Owner/Controller:</h2>&nbsp;<br><input type="text" id="itemControl" class="inputField"><br>
-					&nbsp;<h2>Notes:</h2>&nbsp;<br><input type="text" id="itemNotes" class="inputField"><br>
-					&nbsp;<br><button id="stackAdd">Add to the Stack</button><button id="stackClear">Fully clear the Stack</button><br>
+					&nbsp;<h2>Spell/Ability Name:</h2>&nbsp;<br><input type="text" id="itemName" class="inputField" size="80" placeholder="Card"><br>
+					&nbsp;<h2>Owner/Controller:</h2>&nbsp;<br><input type="text" id="itemControl" class="inputField" size="80" placeholder="Player"><br>
+					&nbsp;<h2>Notes:</h2>&nbsp;<br><input type="text" id="itemNotes" class="inputField" size="80" placeholder="Targets"><br>
+					&nbsp;<br><button id="stackAdd">Add to the Stack</button>&nbsp;&nbsp;&nbsp;<button id="stackClear">Fully Clear the Stack</button><br>
 					&nbsp;<br>
 				</div>
 				<div id="outputStack">
-					
+					&nbsp;<h2>The Stack:</h2>&nbsp;<br>
+					<div id="theStackList">
+						-- Stack Clear --
+					</div>&nbsp;<br>
 				</div>
 			</div>
 		</main>
 		<footer>
 			<div class="containor">
 				&nbsp;<nav>
-					<a href="#">About Web App</a>
+					<a href="#" id="aboutApp">About Web App</a>
 				</nav>
 			</div>
 		</footer>

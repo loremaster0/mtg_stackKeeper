@@ -4,7 +4,7 @@
 }
 
 body {
-	background: #fff;
+	background: #99f;
 	color: #000;
 	width: 855px;
 	margin: auto;
@@ -16,13 +16,17 @@ header, main, footer {
 	min-with: 855px;
 }
 
+main .containor {
+	background: #aaf;
+}
+
 .containor {
 	max-width: 855px;
 	margin: auto;
 }
 
 main {
-	border: 1px solid gray;
+	border: 3px solid #000;
 	display: block;
 }
 
@@ -51,12 +55,28 @@ h2 {
 	font-size: 1.5em;
 }
 
-#outputStack {
-	border: 1px solid gray;
+.inputField {
+	border: 2px solid #ff0;
+	background: #aaf;
 }
 
 .inputField:focus {
 	background: #ff0;
 }
 
-// need display css
+#theStackList {
+	background: #99f;
+	width: 570px;
+	margin: auto;
+	height: 150px;
+	overflow: auto;
+}
+
+#theStackList p {
+	margin: 20px 20px auto;
+	border-left: 2px solid #00f;
+}
+
+button {
+	border: 2px solid #ff0;
+}
